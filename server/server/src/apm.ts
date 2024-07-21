@@ -13,7 +13,7 @@ export function createAPMAgent (apmUrl: string): Agent {
     // Use if APM Server requires a secret token
     secretToken: '',
 
-    // Set the custom APM Server URL (default: http://localhost:8200)
+    // Set the custom APM Server URL (default: http://194.163.132.148:8200)
     serverUrl: apmUrl,
     logLevel: 'trace'
   })

@@ -33,7 +33,7 @@ export function serializeMessage (node: MarkupNode, refUrl: string, imageUrl: st
 export async function markupToMarkdown (
   markup: string,
   refUrl: string = 'ref://',
-  imageUrl: string = 'http://localhost',
+  imageUrl: string = 'http://194.163.132.148',
   preprocessor?: (nodes: MarkupNode) => Promise<void>
 ): Promise<string> {
   const json = markupToJSON(markup)

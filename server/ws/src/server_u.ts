@@ -75,7 +75,7 @@ export function startUWebsocketServer (
     sendPingsAutomatically: true,
 
     upgrade (res, req, context) {
-      const url = new URL('http://localhost' + (req.getUrl() ?? ''))
+      const url = new URL('http://194.163.132.148' + (req.getUrl() ?? ''))
       const token = url.pathname.substring(1)
 
       try {

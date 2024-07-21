@@ -8,7 +8,7 @@
   "template": "@hcengineering/node-package",
   "license": "EPL-2.0",
   "scripts": {
-    "start": "cross-env MONGO_URL=mongodb://localhost:27017 ELASTIC_URL=http://localhost:9200 MINIO_ENDPOINT=localhost MINIO_ACCESS_KEY=minioadmin MINIO_SECRET_KEY=minioadmin METRICS_CONSOLE=false SERVER_SECRET=secret REKONI_URL=http://localhost:4004 FRONT_URL=http://localhost:8080 MODEL_VERSION=$(node ../../common/scripts/show_version.js) GIT_REVISION=$(git describe --all --long) node --nolazy -r ts-node/register src/__start.ts",
+    "start": "cross-env MONGO_URL=mongodb://194.163.132.148:27017 ELASTIC_URL=http://194.163.132.148:9200 MINIO_ENDPOINT=194.163.132.148 MINIO_ACCESS_KEY=minioadmin MINIO_SECRET_KEY=minioadmin METRICS_CONSOLE=false SERVER_SECRET=secret REKONI_URL=http://194.163.132.148:4004 FRONT_URL=http://194.163.132.148:8080 MODEL_VERSION=$(node ../../common/scripts/show_version.js) GIT_REVISION=$(git describe --all --long) node --nolazy -r ts-node/register src/__start.ts",
     "build": "compile",
     "_phase:bundle": "rushx bundle",
     "_phase:docker-build": "rushx docker:build",

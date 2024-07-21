@@ -343,7 +343,7 @@ export function startHttpServer (
   wss.on('connection', handleConnection as any)
 
   httpServer.on('upgrade', (request: IncomingMessage, socket: any, head: Buffer) => {
-    const url = new URL('http://localhost' + (request.url ?? ''))
+    const url = new URL('http://194.163.132.148' + (request.url ?? ''))
     const token = url.pathname.substring(1)
 
     try {

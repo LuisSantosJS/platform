@@ -127,7 +127,7 @@ Alternatively, you can just execute:
 sh ./scripts/create-workspace.sh
 ```
 
-Accessing the URL http://localhost:8087 will lead you to the app in production mode.
+Accessing the URL http://194.163.132.148:8087 will lead you to the app in production mode.
 
 Limitations:
 
@@ -143,7 +143,7 @@ cd dev/prod
 rushx dev-server
 ```
 
-Then go to http://localhost:8080
+Then go to http://194.163.132.148:8080
 
 Use the following login credentials:
 

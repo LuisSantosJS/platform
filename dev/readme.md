@@ -22,9 +22,9 @@ docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
 ```
 
 ```bash
-npm set registry http://localhost:4873
+npm set registry http://194.163.132.148:4873
 npm adduser
 npm login
 ```
 
-Verdaccio will be available via HTTP http://localhost:4873
+Verdaccio will be available via HTTP http://194.163.132.148:4873

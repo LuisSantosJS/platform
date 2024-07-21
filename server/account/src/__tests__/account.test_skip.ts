@@ -28,7 +28,7 @@ const methods = getMethods(getModelVersion(), builder().getTxes(), migrateOperat
 const metricsContext = new MeasureMetricsContext('account', {})
 
 describe('server', () => {
-  const dbUri = process.env.MONGO_URL ?? 'mongodb://localhost:27017'
+  const dbUri = process.env.MONGO_URL ?? 'mongodb://194.163.132.148:27017'
   let conn: MongoClient
   let db: Db
   let workspace: string = 'ws-' + randomBytes(8).toString('hex')

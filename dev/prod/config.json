@@ -1,7 +1,7 @@
 {
-  "ACCOUNTS_URL":"http://localhost:3000",
+  "ACCOUNTS_URL":"http://194.163.132.148:3000",
   "UPLOAD_URL":"/files",
-  "COLLABORATOR_URL": "ws://localhost:3078",
-  "COLLABORATOR_API_URL": "http://localhost:3078",
-  "REKONI_URL": "http://localhost:4004"
+  "COLLABORATOR_URL": "ws://194.163.132.148:3078",
+  "COLLABORATOR_API_URL": "http://194.163.132.148:3078",
+  "REKONI_URL": "http://194.163.132.148:4004"
 }

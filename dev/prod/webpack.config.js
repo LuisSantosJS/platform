@@ -293,18 +293,18 @@ module.exports = [
     },
     proxy: (devServer && !devProduction) ? {
       '/account': {
-        target: 'http://localhost:3000',
+        target: 'http://194.163.132.148:3000',
         changeOrigin: true,
         pathRewrite: { '^/account': '' },
         logLevel: 'debug'
       },
       '/files': {
-        target: 'http://localhost:8087',
+        target: 'http://194.163.132.148:8087',
         changeOrigin: true,
         logLevel: 'debug'
       },
       '/import': {
-        target: 'http://localhost:8087',
+        target: 'http://194.163.132.148:8087',
         changeOrigin: true,
         logLevel: 'debug'
       },

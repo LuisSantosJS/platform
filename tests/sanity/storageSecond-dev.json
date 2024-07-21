@@ -2,7 +2,7 @@
   "cookies": [],
   "origins": [
     {
-      "origin": "http://localhost:8080",
+      "origin": "http://194.163.132.148:8080",
       "localStorage": [
         {
           "name": "login:metadata:LoginEmail",
@@ -14,7 +14,7 @@
         },
         {
           "name": "login:metadata:LoginEndpoint",
-          "value": "ws://localhost:3333"
+          "value": "ws://194.163.132.148:3333"
         },
         {
           "name": "#platform.notification.timeout",

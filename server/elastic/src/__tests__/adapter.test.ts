@@ -24,7 +24,7 @@ describe('Elastic Adapter', () => {
 
   beforeEach(async () => {
     adapter = await createElasticAdapter(
-      process.env.ELASTIC_URL ?? 'http://localhost:9200/',
+      process.env.ELASTIC_URL ?? 'http://194.163.132.148:9200/',
       getWorkspaceId('ws1', ''),
       new MeasureMetricsContext('-', {})
     )

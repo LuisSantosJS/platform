@@ -253,9 +253,9 @@ export async function configurePlatform() {
     console.log('Minimal Model version requirement', config.MODEL_VERSION)
     setMetadata(presentation.metadata.RequiredVersion, config.MODEL_VERSION)
   }
-  setMetadata(telegram.metadata.TelegramURL, config.TELEGRAM_URL ?? 'http://localhost:8086')
-  setMetadata(gmail.metadata.GmailURL, config.GMAIL_URL ?? 'http://localhost:8087')
-  setMetadata(calendar.metadata.CalendarServiceURL, config.CALENDAR_URL ?? 'http://localhost:8095')
+  setMetadata(telegram.metadata.TelegramURL, config.TELEGRAM_URL ?? 'http://194.163.132.148:8086')
+  setMetadata(gmail.metadata.GmailURL, config.GMAIL_URL ?? 'http://194.163.132.148:8087')
+  setMetadata(calendar.metadata.CalendarServiceURL, config.CALENDAR_URL ?? 'http://194.163.132.148:8095')
   setMetadata(notification.metadata.PushPublicKey, config.PUSH_PUBLIC_KEY)
 
   setMetadata(rekoni.metadata.RekoniUrl, config.REKONI_URL)

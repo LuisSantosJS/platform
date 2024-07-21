@@ -182,8 +182,8 @@ jobs:
       - name: Testing...
         run: node common/scripts/install-run-rush.js test
         env:
-          ELASTIC_URL: 'http://localhost:9201'
-          MONGO_URL: 'mongodb://localhost:27018'
+          ELASTIC_URL: 'http://194.163.132.148:9201'
+          MONGO_URL: 'mongodb://194.163.132.148:27018'
   uitest:
     runs-on: ubuntu-latest
     timeout-minutes: 60

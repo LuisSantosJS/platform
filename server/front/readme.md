@@ -53,4 +53,4 @@ If no preview config are specified, a default one targating a front service prev
 
 ## Testing with dev-production/etc.
 
-Only a downloadFile variant of URIs will work, since app is hosted on localhost and token should be valid to use preview on production environment.
+Only a downloadFile variant of URIs will work, since app is hosted on 194.163.132.148 and token should be valid to use preview on production environment.

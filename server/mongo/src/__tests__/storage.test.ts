@@ -83,7 +83,7 @@ async function createNullContentTextAdapter (): Promise<ContentTextAdapter> {
 }
 
 describe('mongo operations', () => {
-  const mongodbUri: string = process.env.MONGO_URL ?? 'mongodb://localhost:27017'
+  const mongodbUri: string = process.env.MONGO_URL ?? 'mongodb://194.163.132.148:27017'
   let mongoClient!: MongoClientReference
   let dbId: string = generateId()
   let hierarchy: Hierarchy

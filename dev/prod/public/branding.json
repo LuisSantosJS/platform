@@ -1,5 +1,5 @@
 {
-  "localhost:8080": {
+  "194.163.132.148:8080": {
     "title": "Platform",
     "languages": "en,ru,pt,es,zh,fr",
     "defaultLanguage": "en",
@@ -27,7 +27,7 @@
       }
     ]
   },
-  "localhost:8087": {
+  "194.163.132.148:8087": {
     "title": "DevPlatform",
     "languages": "en,ru,pt,es,zh,fr",
     "defaultLanguage": "en",

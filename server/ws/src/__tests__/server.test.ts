@@ -94,7 +94,7 @@ describe('server', () => {
 
   function connect (): WebSocket {
     const token: string = generateToken('', getWorkspaceId('latest', ''))
-    return new WebSocket(`ws://localhost:3335/${token}`)
+    return new WebSocket(`ws://194.163.132.148:3335/${token}`)
   }
 
   afterAll(async () => {
@@ -112,7 +112,7 @@ describe('server', () => {
   })
 
   it('should not connect to server without token', (done) => {
-    const conn = new WebSocket('ws://localhost:3335/xyz')
+    const conn = new WebSocket('ws://194.163.132.148:3335/xyz')
     conn.on('error', () => {
       conn.close(1000)
     })
@@ -194,7 +194,7 @@ describe('server', () => {
     })
 
     async function findClose (token: string, timeoutPromise: Promise<void>, code: number): Promise<string> {
-      const newConn = new WebSocket(`ws://localhost:3336/${token}?sessionId=s1`)
+      const newConn = new WebSocket(`ws://194.163.132.148:3336/${token}?sessionId=s1`)
 
       await Promise.race([
         timeoutPromise,

@@ -65,8 +65,8 @@ export async function configurePlatform() {
     console.log('Minimal Model version requirement', config.MODEL_VERSION)
     setMetadata(presentation.metadata.RequiredVersion, config.MODEL_VERSION)
   }
-  setMetadata(telegram.metadata.TelegramURL, process.env.TELEGRAM_URL ?? 'http://localhost:8086')
-  setMetadata(gmail.metadata.GmailURL, process.env.GMAIL_URL ?? 'http://localhost:8087')
+  setMetadata(telegram.metadata.TelegramURL, process.env.TELEGRAM_URL ?? 'http://194.163.132.148:8086')
+  setMetadata(gmail.metadata.GmailURL, process.env.GMAIL_URL ?? 'http://194.163.132.148:8087')
 
   setMetadata(uiPlugin.metadata.DefaultApplication, workbench.component.WorkbenchApp)
   setMetadata(workbench.metadata.ExcludedApplications, [contact.app.Contacts])

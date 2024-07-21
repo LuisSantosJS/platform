@@ -1,5 +1,5 @@
 {
-  "localhost:8083": {
+  "194.163.132.148:8083": {
     "key": "tracex",
     "title": "TraceX",
     "protocol": "http",
@@ -42,7 +42,7 @@
       }
     ]
   },
-  "localhost:8080": {
+  "194.163.132.148:8080": {
     "key": "tracex-dev",
     "title": "TraceX",
     "protocol": "http",
